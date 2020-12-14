@@ -47,7 +47,6 @@ const IndexPage = () => {
         Here you can find my portfolio with selected software I've written.
           You can also read my articles and view my CV.
       </h1>
-      <p>hello</p>
       <iframe src={img1} frameborder="0"></iframe>
     </Header>
   )

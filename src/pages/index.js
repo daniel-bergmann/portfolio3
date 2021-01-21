@@ -1,13 +1,10 @@
 import * as React from "react"
 import { Helmet } from "react-helmet"
-
-
+import '../styles/style.scss'
 
 // Components
 import IndexHeader from '../components/IndexHeader'
-import Navbar from '../components/nav/Navbar'
-
-
+import Darkmode from '../components/Darkmode'
 
 // markup
 const IndexPage = () => {
@@ -30,7 +27,7 @@ const IndexPage = () => {
           content="Includes selected web development projects made by Daniel Bergmann" />
           <link rel="canonical" href="http://danielbergmann.me" />
       </Helmet>
-      <Navbar />
+      <Darkmode/>
       <IndexHeader />
     </>
   )

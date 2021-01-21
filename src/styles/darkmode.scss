@@ -1,0 +1,28 @@
+// Darkmode toggler
+
+body {
+  color: var(--primary);
+  background-color: var(--secondary);
+  &.light {
+    --primary: #333;
+    --secondary: white;
+  }
+  &.dark {
+    --primary: rgb(207, 131, 118);
+    --secondary: #24292e;
+  }
+  .theme-mode {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin: 20px 20px;
+    .darkmode-toggler-icon {
+      margin-top: 10px;
+      height: 100%;
+      width: 100%;
+      &:hover{
+        color: rgb(96, 255, 189);
+      }
+    }
+  }
+}

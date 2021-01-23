@@ -1,18 +1,19 @@
-import * as React from "react"
-import { Helmet } from "react-helmet"
-import '../styles/style.scss'
+import * as React from 'react';
+import { Helmet } from 'react-helmet';
+import '../styles/style.scss';
 
 // Components
-import IndexHeader from '../components/IndexHeader'
-import Darkmode from '../components/Darkmode'
+import IndexHeader from '../components/IndexHeader';
+import Darkmode from '../components/Darkmode';
+import Nav from '../components/Nav';
 
 // markup
 const IndexPage = () => {
   return (
     <>
       <Helmet>
-          <script type="application/ld+json">
-            {`
+        <script type='application/ld+json'>
+          {`
               {
                 "@context": "https://www.danielbergmann.me",
                 "@type": "Portfolio Site",
@@ -20,17 +21,20 @@ const IndexPage = () => {
                 "name": "Daniel Bergmann",
               }
             `}
-          </script>
-          <meta charSet="utf-8" />
-          <title>Daniel Bergmann</title>
-          <meta name="Daniel Bergmann's portfolio site" 
-          content="Includes selected web development projects made by Daniel Bergmann" />
-          <link rel="canonical" href="http://danielbergmann.me" />
+        </script>
+        <meta charSet='utf-8' />
+        <title>Daniel Bergmann</title>
+        <meta
+          name="Daniel Bergmann's portfolio site"
+          content='Includes selected web development projects made by Daniel Bergmann'
+        />
+        <link rel='canonical' href='http://danielbergmann.me' />
       </Helmet>
-      <Darkmode/>
+      <Darkmode />
+      <Nav />
       <IndexHeader />
     </>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;

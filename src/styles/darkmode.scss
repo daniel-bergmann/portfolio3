@@ -1,6 +1,6 @@
 // Darkmode toggler
 
-body {
+body, .darkmode {
   color: var(--primary);
   background-color: var(--secondary);
   &.light {
@@ -20,8 +20,8 @@ body {
       margin-top: 10px;
       height: 100%;
       width: 100%;
-      &:hover{
-        color: rgb(96, 255, 189);
+      &:hover {
+        color: #548e8e;
       }
     }
   }

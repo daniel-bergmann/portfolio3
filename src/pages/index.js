@@ -28,7 +28,7 @@ const IndexPage = () => {
           name="Daniel Bergmann's portfolio site"
           content='Includes selected web development projects made by Daniel Bergmann'
         />
-        <link rel='canonical' href='http://danielbergmann.me' />
+        <link rel='canonical' href='https://danielbergmann.me' />
       </Helmet>
       <Darkmode />
       <Nav />

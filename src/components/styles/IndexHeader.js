@@ -11,12 +11,15 @@ export const Header = styled.div`
     font-size: 50px;
     padding: 5px;
     font-weight: 200;
+    text-align: right;
+    margin: 0 20px;
   }
 
   .pick {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
     .social {
       font-size: 30px;
       .social-item {

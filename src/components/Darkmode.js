@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Helmet from 'react-helmet';
 
-import { FaFireAlt, FaGhost } from 'react-icons/fa';
+import { FaLightbulb, FaGhost } from 'react-icons/fa';
 
 const themeType = {
   dark: 'dark',
@@ -44,9 +44,15 @@ const Darkmode = () => {
         onKeyDown={toggleMode}
       >
         {mode === themeType.light ? (
-          <FaGhost className='darkmode-toggler-icon' />
+          <FaGhost
+            style={{ color: 'tomato' }}
+            className='darkmode-toggler-icon'
+          />
         ) : (
-          <FaFireAlt className='darkmode-toggler-icon' />
+          <FaLightbulb
+            style={{ color: 'gold' }}
+            className='darkmode-toggler-icon'
+          />
         )}
       </div>
     </>

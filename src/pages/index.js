@@ -7,6 +7,10 @@ import IndexHeader from '../components/IndexHeader';
 import Darkmode from '../components/Darkmode';
 import Nav from '../components/Nav';
 
+// portfolio components
+import Professional from '../components/portfolioItems/Professional';
+import Personal from '../components/portfolioItems/Personal';
+
 // markup
 const IndexPage = () => {
   return (
@@ -33,6 +37,8 @@ const IndexPage = () => {
       <Darkmode />
       <Nav />
       <IndexHeader />
+      <Professional />
+      <Personal />
     </>
   );
 };

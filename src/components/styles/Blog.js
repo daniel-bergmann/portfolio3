@@ -4,14 +4,15 @@ export const BlogStyling = styled.div`
   display: grid;
   grid-template-columns: 1fr;
 
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto;
   margin-bottom: 10px;
-  h1 {
-    a {
-      text-decoration: none;
-      color: #333;
+  .text {
+    h1 {
+      a {
+        text-decoration: none;
+        color: #333;
+      }
     }
   }
-  
 `;

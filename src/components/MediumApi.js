@@ -40,20 +40,22 @@ function MediumApi() {
       {articles.map((i) => {
         return (
           <BlogStyling>
-            <h1>
-              <a
-                style={{ color: '#548e8e' }}
-                rel='noreferrer'
-                target='_blank'
-                href={i.guid}
-              >
-                {i.title}
-              </a>
-            </h1>
-            <Link style={{ textDecoration: 'none', color: '#333' }} to='/'>
-              <h3 className='darkmode'>{i.creator}</h3>
-            </Link>
-            <p>{i.pubDate.substring(0, 17)}</p>
+            <div className='text'>
+              <h1>
+                <a
+                  style={{ color: '#548e8e' }}
+                  rel='noreferrer'
+                  target='_blank'
+                  href={i.guid}
+                >
+                  {i.title}
+                </a>
+              </h1>
+              <Link style={{ textDecoration: 'none', color: '#333' }} to='/'>
+                <h3 className='darkmode'>{i.creator}</h3>
+              </Link>
+              <p>{i.pubDate.substring(0, 17)}</p>
+            </div>
           </BlogStyling>
         );
       })}

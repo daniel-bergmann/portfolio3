@@ -23,10 +23,23 @@ const IndexHeader = () => {
 
       <div className='pick'>
         <div className='social'>
-          <FaLinkedin className='social-item' />
-          <FaDribbbleSquare className='social-item' />
-          <FaGithubSquare className='social-item' />
-          <Link to="/blog">
+          <a
+            style={{ color: 'inherit' }}
+            rel='noreferrer'
+            target='_blank'
+            href='https://www.linkedin.com/in/daniel-bergmann-1449bb1b1/'
+          >
+            <FaLinkedin className='social-item' />
+          </a>
+          <a
+            style={{ color: 'inherit' }}
+            rel='noreferrer'
+            target='_blank'
+            href='https://github.com/daniel-bergmann'
+          >
+            <FaGithubSquare className='social-item' />
+          </a>
+          <Link style={{ color: 'inherit' }} to='/blog'>
             <FaMedium className='social-item' />
           </Link>
         </div>

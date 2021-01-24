@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Helmet from 'react-helmet';
 
-import { FaLightbulb, FaGhost } from 'react-icons/fa';
+import { FaLightbulb } from 'react-icons/fa';
 
 const themeType = {
   dark: 'dark',
@@ -49,7 +49,7 @@ const Darkmode = () => {
             className='darkmode-toggler-icon'
           />
         ) : (
-          <FaGhost
+          <FaLightbulb
             style={{ color: 'grey' }}
             className='darkmode-toggler-icon'
           />

@@ -4,12 +4,12 @@ body, .darkmode {
   color: var(--primary);
   background-color: var(--secondary);
   &.light {
-    --primary: #333;
-    --secondary: white;
-  }
-  &.dark {
     --primary: rgb(207, 131, 118);
     --secondary: #24292e;
+  }
+  &.dark {
+    --primary: #333;
+    --secondary: white;
   }
   .theme-mode {
     cursor: pointer;

@@ -44,13 +44,13 @@ const Darkmode = () => {
         onKeyDown={toggleMode}
       >
         {mode === themeType.light ? (
-          <FaGhost
-            style={{ color: 'tomato' }}
+          <FaLightbulb
+            style={{ color: 'gold' }}
             className='darkmode-toggler-icon'
           />
         ) : (
-          <FaLightbulb
-            style={{ color: 'gold' }}
+          <FaGhost
+            style={{ color: 'grey' }}
             className='darkmode-toggler-icon'
           />
         )}

@@ -12,6 +12,9 @@ function Nav() {
         <Link style={{ textDecoration: 'none', color: '#333' }} to='/blog'>
           <h3 className='darkmode'>Blog</h3>
         </Link>
+        <Link style={{ textDecoration: 'none', color: '#333' }} to='/'>
+          <h3 className='darkmode'>Vitae</h3>
+        </Link>
       </NavStyling>
     );
 }

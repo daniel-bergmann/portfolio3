@@ -46,13 +46,16 @@ const IndexHeader = () => {
         <h2>Portfolio includes</h2>
         <p>Professional Projects</p>
         <div className='work'>
-          <h3>Konfusius.is</h3>
-          <h3>Kinverska.is</h3>
-        </div>
-        <p>Personal Projects</p>
-        <div className='work'>
-          <h3>eitthvað</h3>
-          <h3>eitthvað</h3>
+          <h3>
+            I have mainly worked in education creating a langauge learning
+            platform and some other websites for the Northern Lights Confucius
+            Institute.
+          </h3>
+          <p style={{textAlign: 'center'}}>Other Projects</p>
+          <h3>
+            I really enjoy programming so I have a bunch of sweet projects to
+            show. I also have a blog that you can check out. Enjoy!
+          </h3>
         </div>
       </div>
     </Header>

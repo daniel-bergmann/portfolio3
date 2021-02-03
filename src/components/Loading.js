@@ -5,12 +5,12 @@ import styled from 'styled-components';
 const LoadingStyling = styled.div`
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-content: flex-start;
 
   img {
-    border-radius: 50%;
+    height: 10%;
+    width: 10%;
   }
-
 `;
 
 function Loading() {

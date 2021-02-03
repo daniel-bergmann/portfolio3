@@ -11,7 +11,6 @@ function Personal() {
   const [content, setContent] = useState(data);
   return (
     <>
-      <h1 style={{ margin: '30px', textAlign: 'center' }}>Other Projects</h1>
       {content.map((i) => {
         return (
           <Style2>

@@ -43,18 +43,11 @@ const IndexHeader = () => {
             <FaMedium className='social-item' />
           </Link>
         </div>
-        <h2>Portfolio includes</h2>
-        <p>Professional Projects</p>
         <div className='work'>
           <h3>
             I have mainly worked in education creating a langauge learning
-            platform and some other websites for the Northern Lights Confucius
+            platform and other web applications for the Northern Lights Confucius
             Institute.
-          </h3>
-          <p style={{textAlign: 'center'}}>Other Projects</p>
-          <h3>
-            I really enjoy programming so I have a bunch of sweet projects to
-            show. I also have a blog that you can check out. Enjoy!
           </h3>
         </div>
       </div>

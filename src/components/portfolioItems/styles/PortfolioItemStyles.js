@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+// Styling for Professional.js
+
 export const Style1 = styled.div`
   display: grid;
   grid-template-columns: 1fr;
@@ -14,6 +16,7 @@ export const Style1 = styled.div`
     img {
       height: 100%;
       width: 100%;
+      max-height: 250px;
     }
   }
 

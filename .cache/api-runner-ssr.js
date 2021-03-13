@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('C:/Users/dba22/Desktop/git-repos/portfolio3/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('C:/Users/dba22/Desktop/dev/git-repos/portfolio3/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"transpileTemplateLiterals":true,"pure":false},
     },{
-      plugin: require('C:/Users/dba22/Desktop/git-repos/portfolio3/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/Users/dba22/Desktop/dev/git-repos/portfolio3/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

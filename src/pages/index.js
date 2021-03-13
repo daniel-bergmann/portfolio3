@@ -1,13 +1,12 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import '../styles/style.scss';
-import styled from 'styled-components';
+
 // Components
 import Nav from '../components/Nav';
 import MediumApi from '../components/MediumApi';
-
-// img
-import Cat from '../img/circles-menu-1.gif';
+import P from '../components/P';
+import Portfolio from '../components/Portfolio';
 
 // markup
 const IndexPage = () => {
@@ -32,29 +31,20 @@ const IndexPage = () => {
         />
         <link rel='canonical' href='https://danielbergmann.me' />
       </Helmet>
-      {/* <Nav />
-      <MediumApi /> */}
-      <Patience>
-        <h1>I'll be right back amigos.</h1>
-        <img src={Cat} alt='rockin cat' />
-      </Patience>
+
+      {/* <div className='main-content-container'>
+        <nav>
+          <Nav />
+        </nav>
+        <main>
+          <Portfolio />
+          <MediumApi />
+        </main>
+      </div> */}
+
+      <P/>
     </>
   );
 };
 
 export default IndexPage;
-
-const Patience = styled.div`
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  h1 {
-    color: #333;
-  }
-  img {
-    height: 200px;
-    width: auto;
-  }
-`;

@@ -4,7 +4,7 @@ body, .darkmode {
   color: var(--primary);
   background-color: var(--secondary);
   &.light {
-    --primary: rgb(207, 131, 118);
+    --primary: rgb(199, 178, 178);
     --secondary: #24292e;
   }
   &.dark {

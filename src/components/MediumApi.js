@@ -41,7 +41,7 @@ function MediumApi() {
             <div className='text'>
               <h1>
                 <a
-                  style={{ color: '#548e8e' }}
+                  style={{ color: '#333' }}
                   rel='noreferrer'
                   target='_blank'
                   href={i.guid}

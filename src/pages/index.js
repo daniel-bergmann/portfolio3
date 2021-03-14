@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import '../styles/style.scss';
 
@@ -7,9 +8,21 @@ import Nav from '../components/Nav';
 import MediumApi from '../components/MediumApi';
 import P from '../components/P';
 import Portfolio from '../components/Portfolio';
+import Welcome from '../components/Welcome';
+import Podcast from '../components/Podcast';
 
 // markup
 const IndexPage = () => {
+  const [cn, setCn] = useState(false);
+
+  function changeLang() {
+    if (cn === false) {
+      setCn(true);
+    } else {
+      setCn(false);
+    }
+  }
+
   return (
     <>
       <Helmet>
@@ -32,17 +45,19 @@ const IndexPage = () => {
         <link rel='canonical' href='https://danielbergmann.me' />
       </Helmet>
 
-      {/* <div className='main-content-container'>
+      <div className='main-content-container'>
         <nav>
-          <Nav />
+          <Nav cn={cn} changeLang={changeLang} />
         </nav>
         <main>
-          <Portfolio />
-          <MediumApi />
+          <Welcome cn={cn} />
+          {/* <Portfolio cn={cn} /> */}
+          <MediumApi cn={cn} />
+          <Podcast cn={cn} />
         </main>
-      </div> */}
+      </div>
 
-      <P/>
+      {/* <P/> */}
     </>
   );
 };
